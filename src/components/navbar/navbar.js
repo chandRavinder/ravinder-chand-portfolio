@@ -1,13 +1,14 @@
 import React from 'react';
 import './navbar.css';
-import logo from '../../assets/logo.png';
+// import logo from '../../assets/logo.png';
+import profile from '../../assets/Ravinder-Profile.png'
 import contactImg from '../../assets/contact.png'
 import { Link } from 'react-scroll';
 
 export const Navbar = () => {
   return (
     <nav className='navbar'>
-        <img src={logo} alt='LogoImage' className='logo' />
+        <img src={profile} alt='LogoImage' className='logo' />
 
         <div className='desktopMenu'>
             <Link className="desktopListItem">Home</Link>

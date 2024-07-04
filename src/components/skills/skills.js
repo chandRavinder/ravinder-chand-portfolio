@@ -4,7 +4,7 @@ export const Skills = () => {
     return (
         <>
             <section className='full-viewport'>
-                <div className='container-fluid'>
+                <div className='container-fluid mt-5'>
                     <div className='row'>
                         <div className='col-sm-12'>
                             <h2 className='text-center'>
@@ -13,23 +13,28 @@ export const Skills = () => {
                         </div>
                         <hr />
                         {/* Left Col */}
-                        <div className='col-sm-6'>
+                        <div className='col-sm-6 mt-5'>
                             <h4 className='text-center'>HTML 5 And CSS3</h4>
                             <div className="progress">
                                 <div className="progress-bar progress-bar-striped progress-bar-animated html-css-progressbar" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                             
                             <br />
+
                             <h4 className='text-center'>JavaScript</h4>
                             <div className="progress">
                                 <div className="progress-bar progress-bar-striped progress-bar-animated js-progressbar" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
+
                             <br />
+
                             <h4 className='text-center'>jQuery</h4>
                             <div className="progress">
                                 <div className="progress-bar progress-bar-striped progress-bar-animated jQuery-progressbar" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
+
                             <br />
+
                             <h4 className='text-center'>React.js</h4>
                             <div className="progress">
                                 <div className="progress-bar progress-bar-striped progress-bar-animated react-progressbar" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
@@ -37,22 +42,28 @@ export const Skills = () => {
                         </div>
 
                         {/* Right Col */}
-                        <div className='col-sm-6'>
+                        <div className='col-sm-6 mt-5'>
                         <h4 className='text-center'>Node.js</h4>
                             <div className="progress">
                                 <div className="progress-bar progress-bar-striped progress-bar-animated node-progressbar" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
+
                             <br />
+
                             <h4 className='text-center'>ColdFusion</h4>
                             <div className="progress">
                                 <div className="progress-bar progress-bar-striped progress-bar-animated cf-progressbar" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
+
                             <br />
+
                             <h4 className='text-center'>MS SQL</h4>
                             <div className="progress">
                                 <div className="progress-bar progress-bar-striped progress-bar-animated sql-progressbar" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
+
                             <br />
+
                             <h4 className='text-center'>Next.js</h4>
                             <div className="progress">
                                 <div className="progress-bar progress-bar-striped progress-bar-animated next-progressbar" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>

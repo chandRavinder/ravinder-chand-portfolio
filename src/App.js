@@ -1,12 +1,14 @@
 import Navbar from './components/navbar/navbar.js';
-import Intro from './components/intro/intro.js';
+import Description from './components/description/description.js';
+import About from './components/about/about.js';
 import Skills from './components/skills/skills.js';
 
 function App() {
     return (
         <div className="App">
             <Navbar />
-            <Intro />
+            <Description />
+            <About />
             <Skills />
         </div> 
     );

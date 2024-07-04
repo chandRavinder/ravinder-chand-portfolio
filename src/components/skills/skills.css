@@ -1,0 +1,44 @@
+.full-viewport {
+    width: 100%;
+    height: 100vh;
+    /* background-color: lightblue;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress {
+    height: 5px !important;
+}
+
+.html-css-progressbar {
+    width: 75%;
+}
+
+.js-progressbar {
+    width: 80%;
+}
+
+.jQuery-progressbar {
+    width: 75%;
+}
+
+.react-progressbar {
+    width: 70%;
+}
+
+.node-progressbar {
+    width: 75%;
+}
+
+.cf-progressbar {
+    width: 80%;
+}
+
+.sql-progressbar {
+    width: 75%;
+}
+
+.next-progressbar {
+    width: 70%;
+}

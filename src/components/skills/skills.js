@@ -1,34 +1,71 @@
-import React from 'react';
 import './skills.css';
 
 export const Skills = () => {
     return (
-        <section id='skills'>
-            <span className='skillsTitle'>What I do</span>
-            <span className='skillsDescription'> asdfasdfasdfasdf</span>
-            <div className='skillBar'>
-                <img src='' alt='' className='' />
-                <div className='skillBarText' >
-                    <h2>Demo 1</h2>
-                    <p>asdfasdf</p>
+        <>
+            <section className='full-viewport'>
+                <div className='container-fluid'>
+                    <div className='row'>
+                        <div className='col-sm-12'>
+                            <h2 className='text-center'>
+                                SKILLS
+                            </h2>
+                        </div>
+                        <hr />
+                        {/* Left Col */}
+                        <div className='col-sm-6'>
+                            <h4 className='text-center'>HTML 5 And CSS3</h4>
+                            <div className="progress">
+                                <div className="progress-bar progress-bar-striped progress-bar-animated html-css-progressbar" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            
+                            <br />
+                            <h4 className='text-center'>JavaScript</h4>
+                            <div className="progress">
+                                <div className="progress-bar progress-bar-striped progress-bar-animated js-progressbar" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <br />
+                            <h4 className='text-center'>jQuery</h4>
+                            <div className="progress">
+                                <div className="progress-bar progress-bar-striped progress-bar-animated jQuery-progressbar" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <br />
+                            <h4 className='text-center'>React.js</h4>
+                            <div className="progress">
+                                <div className="progress-bar progress-bar-striped progress-bar-animated react-progressbar" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        {/* Right Col */}
+                        <div className='col-sm-6'>
+                        <h4 className='text-center'>Node.js</h4>
+                            <div className="progress">
+                                <div className="progress-bar progress-bar-striped progress-bar-animated node-progressbar" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <br />
+                            <h4 className='text-center'>ColdFusion</h4>
+                            <div className="progress">
+                                <div className="progress-bar progress-bar-striped progress-bar-animated cf-progressbar" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <br />
+                            <h4 className='text-center'>MS SQL</h4>
+                            <div className="progress">
+                                <div className="progress-bar progress-bar-striped progress-bar-animated sql-progressbar" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <br />
+                            <h4 className='text-center'>Next.js</h4>
+                            <div className="progress">
+                                <div className="progress-bar progress-bar-striped progress-bar-animated next-progressbar" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                        <path fill="#f3f4f5" fillOpacity="1" d="M0,288L13.3,261.3C26.7,235,53,181,80,138.7C106.7,96,133,64,160,90.7C186.7,117,213,203,240,245.3C266.7,288,293,288,320,245.3C346.7,203,373,117,400,96C426.7,75,453,117,480,138.7C506.7,160,533,160,560,176C586.7,192,613,224,640,208C666.7,192,693,128,720,138.7C746.7,149,773,235,800,229.3C826.7,224,853,128,880,90.7C906.7,53,933,75,960,69.3C986.7,64,1013,32,1040,58.7C1066.7,85,1093,171,1120,218.7C1146.7,267,1173,277,1200,234.7C1226.7,192,1253,96,1280,69.3C1306.7,43,1333,85,1360,96C1386.7,107,1413,85,1427,74.7L1440,64L1440,320L1426.7,320C1413.3,320,1387,320,1360,320C1333.3,320,1307,320,1280,320C1253.3,320,1227,320,1200,320C1173.3,320,1147,320,1120,320C1093.3,320,1067,320,1040,320C1013.3,320,987,320,960,320C933.3,320,907,320,880,320C853.3,320,827,320,800,320C773.3,320,747,320,720,320C693.3,320,667,320,640,320C613.3,320,587,320,560,320C533.3,320,507,320,480,320C453.3,320,427,320,400,320C373.3,320,347,320,320,320C293.3,320,267,320,240,320C213.3,320,187,320,160,320C133.3,320,107,320,80,320C53.3,320,27,320,13,320L0,320Z"></path>
+                    </svg>
                 </div>
-            </div>
-            <div className='skillBar'>
-                <img src='' alt='' className='' />
-                <div className='skillBarText' >
-                    <h2>Demo 2</h2>
-                    <p>asdfasdf</p>
-                </div>
-            </div>
-            <div className='skillBar'>
-                <img src='' alt='' className='' />
-                <div className='skillBarText' >
-                    <h2>Demo 3</h2>
-                    <p>asdfasdf</p>
-                </div>
-            </div>
-        </section>
+            </section>
+        </>
     )
 }
 
-export default Skills
+export default Skills;

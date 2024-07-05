@@ -9,7 +9,7 @@ export const About = () => {
                 <div className='container-fluid about-container'>
                     <div className='row'>
                         <div className='col-sm-12'>
-                            <h2 className='text-center'>About Me</h2>
+                            <h2 className='text-center'>ABOUT ME</h2>
                         </div>
                         <hr />
                         <div className='col-sm-4 d-flex justify-content-center mt-5'>

@@ -5,7 +5,8 @@ export const Skills = () => {
         <>
             <section className='full-viewport'>
                 <div className='container-fluid mt-5'>
-                    <div className='row'>
+                    {/* SKILLS */}
+                    <div className='row mt-5 mb-5'>
                         <div className='col-sm-12'>
                             <h2 className='text-center'>
                                 SKILLS
